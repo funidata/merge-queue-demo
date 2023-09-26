@@ -12,4 +12,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "20.7.0"
+      # Sleep for a minute to allow for live-demonstration time.
+      - run: sleep 1m
       - run: node --test
