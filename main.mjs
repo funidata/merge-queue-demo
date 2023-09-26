@@ -1,2 +1,1 @@
-// Hello!
-export const a = 2;
+export const a = 1;
